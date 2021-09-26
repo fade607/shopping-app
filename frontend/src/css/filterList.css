@@ -1,0 +1,45 @@
+.filterList {
+    background-color: hsl(222, 11%, 18%);
+    height: 100%;
+    padding-left: 5px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.filterList li {
+    height: 80px;
+    font-size: 1.2rem;
+    color: white;
+    background: none;
+    border: none;
+    width: 15vw;
+    border-bottom: 1px solid #fff;
+    /* display: flex; */
+    align-items: flex-end;
+}
+
+.filterList li:hover {
+    cursor: pointer;
+    background-color: hsl(220, 4%, 14%);
+}
+
+@media (max-width: 900px) {
+    .filterList {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .filterList li {
+        padding: 2px 20px;
+        margin: 3px;
+        border: none;
+        margin-left: 20px;
+        font-size: 0.8rem;
+    }
+}

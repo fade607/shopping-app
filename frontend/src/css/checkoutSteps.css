@@ -1,0 +1,38 @@
+.checkOut {
+    padding: 5px 30px;
+    margin: 10px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: start;
+    align-items: center;
+    border-bottom: 2px solid #888;
+}
+
+.checkOut-link {
+    font: 2rem;
+    padding: 10px;
+    color: #000;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Georgia, serif;
+    border-radius: 20px;
+}
+
+.checkOut p {
+    font-size: 1.5rem;
+    font-family: Georgia, serif;
+    color: #888;
+}
+
+@media (max-width: 600px) {
+    .checkOut {
+        padding: 5px;
+        margin: 0;
+    }
+    .checkOut-link {
+        font-size: 1rem;
+    }
+}
+
+;

@@ -1,0 +1,24 @@
+.sidbar {
+    top: 0;
+    height: 100vh;
+    background: var(--clr-primary-1);
+    color: #fff;
+    padding: 2rem;
+}
+
+.sidbar_header {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidbar_content {
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+.sidbar_content div {
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+}

@@ -1,0 +1,12 @@
+.errorPage {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error404 {
+    font-size: 5rem;
+    display: flex;
+}

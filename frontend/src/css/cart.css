@@ -1,0 +1,74 @@
+.list_cart {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+    padding: 20px;
+    border-bottom: 2px solid #888;
+}
+
+.cart {
+    margin: 10px 150px;
+}
+
+.list_cart img {
+    width: 100px;
+    height: 100px;
+}
+
+.add_to_cart {
+    padding: 20px;
+}
+
+.add_to_cart div {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.add_to_cart select {
+    margin-left: 10px;
+    width: 10vw;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.btn-delete {
+    width: 5vw;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    color: red;
+}
+
+.card-cart {
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.empty_cart {
+    padding: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 730px) {
+    .title {
+        display: none;
+    }
+    .cart {
+        margin: 10px;
+    }
+    .list_cart {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+}

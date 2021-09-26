@@ -1,0 +1,10 @@
+.sliderimg {
+    width: 100vw;
+    height: 70vh;
+    object-fit: inherit;
+}
+
+.slidbar {
+    justify-content: center;
+    align-items: center;
+}

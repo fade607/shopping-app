@@ -1,0 +1,43 @@
+.placeOrder {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    padding: 30px 60px;
+}
+
+@media (max-width: 600px) {
+    .placeOrder {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 30px;
+    }
+}
+
+.left-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item-order {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 3px;
+    border-bottom: 1px solid #999;
+}
+
+.products-placeOrder img {
+    width: 80px;
+    height: 80px;
+}
+
+.totalAmount-order {
+    margin: auto;
+}

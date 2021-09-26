@@ -1,0 +1,58 @@
+.productCard {
+    width: 25vw;
+    padding: 5px;
+    margin: 10px 2px;
+    line-height: 70px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+img {
+    width: 15vw;
+    height: 32vh;
+    object-fit: contain;
+}
+
+.datiles {
+    line-height: 1rem;
+}
+
+.brand {
+    color: #999;
+}
+
+@media (max-width: 1080px) {
+    .productCard {
+        width: 100%;
+    }
+    img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 560px) {
+    .productCard {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+    img {
+        width: 100%;
+        height: 40%;
+    }
+}
+
+@media (max-width: 900px) {
+    .productCard {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+    img {
+        width: 100%;
+        height: 40%;
+    }
+}
