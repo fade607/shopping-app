@@ -9,6 +9,8 @@ https://docs.djangoproject.com/en/dev/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/dev/ref/settings/
 """
+import django_heroku
+
 
 from pathlib import Path
 
@@ -188,3 +190,4 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
    
 ]
+django_heroku.settings(locals())
